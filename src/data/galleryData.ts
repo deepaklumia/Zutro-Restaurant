@@ -1,0 +1,68 @@
+import { GalleryItem } from "@/types";
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: "g-1",
+    title: "Le Méridien Dining Room",
+    category: "interior",
+    image: "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+    caption: "Sophisticated European mid-century design with warm ambient brass lighting in Downtown Houston.",
+    aspect: "landscape",
+  },
+  {
+    id: "g-2",
+    title: "Artisanal Wagyu Presentation",
+    category: "dishes",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    caption: "Slow-braised Texas beef with rich port wine reduction and micro herbs.",
+    aspect: "portrait",
+  },
+  {
+    id: "g-3",
+    title: "The Gold Bar & Cocktail Lounge",
+    category: "lounge",
+    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
+    caption: "The premier downtown destination for pre-theater drinks and Sparkling Hour aperitifs.",
+    aspect: "landscape",
+  },
+  {
+    id: "g-4",
+    title: "Texas Smoked Old Fashioned",
+    category: "cocktails",
+    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    caption: "Hand-carved crystalline ice, Balcones Texas bourbon, and aromatic charred rosemary smoke.",
+    aspect: "portrait",
+  },
+  {
+    id: "g-5",
+    title: "Private Dining Suite",
+    category: "interior",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    caption: "Intimate dining alcoves designed for executive dinners and anniversary celebrations.",
+    aspect: "landscape",
+  },
+  {
+    id: "g-6",
+    title: "Prime Dry-Aged Ribeye",
+    category: "dishes",
+    image: "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80",
+    caption: "45-day dry-aged USDA Prime cut seared to perfection over open flame.",
+    aspect: "portrait",
+  },
+  {
+    id: "g-7",
+    title: "Sparkling Hour Aperitif",
+    category: "cocktails",
+    image: "https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=800&q=80",
+    caption: "Chilled vintage champagne with elderflower and 24-karat gold shimmer.",
+    aspect: "portrait",
+  },
+  {
+    id: "g-8",
+    title: "Intimate Evening Tables",
+    category: "lounge",
+    image: "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?auto=format&fit=crop&w=1200&q=80",
+    caption: "Candlelit tables creating an unforgettable romantic atmosphere in the heart of Houston.",
+    aspect: "landscape",
+  },
+];
